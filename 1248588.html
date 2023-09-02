@@ -2,15 +2,70 @@
 <meta http-equiv="refresh" content="12;url=hello.html">
 12秒后跳转
 
-<title>广告提前跳转</title>
-<div align=center><b>广告</b></div>
-<table cellspacing=0 cellpadding=1 width="100%" border=0>
-<tr><th bgcolor=#CCCCCC><marquee direction=up height=120 width=260 id=m onmouseout=m.start() onMouseOver=m.stop() scrollamount=2 align="center">
-<p><a href="http:" target="_blank">qq：2647682805</a> 
-<p>weixin：douyinanzhuo2018</p>
-<p>douyin：roblox.anzhuo666</p>
-<p>谢谢收看，以下是寄语</p>
-<p>生活是一首歌</p>
-<p>旅途有苦有乐</p>
-</marquee></th>
+<title>加载中</title>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen"> 
+       
+      .spinWrap {
+          width: 150px;
+          height: 200px;
+          position: fixed;
+          top: 42%;
+          left: 50%;
+          margin-left: -75px;
+          margin-top: -100px;
+      }
+       
+      .spinnerImage {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        margin: 38px 0 0 -25px;
+        background:url(icon.png) no-repeat;
+      }
+ 
+      .loader {
+        position : absolute;
+        left : 50%;
+          margin-left : -65px;
+        border: 5px solid #cbcbca;
+        border-top: 5px solid #2380be;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        animation: spin 0.7s linear infinite;
+      }
+       
+      .loadingMessage {
+          box-sizing: border-box;
+          width: 100%;
+          margin-top: 145px;
+          text-align: center;
+          z-index: 100;
+          outline: none;
+          color: #686565;
+      }
+ 
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="spinWrap">
+      <div class="spinnerImage"></div>
+      <div class="loader"></div>
+      <div class="loadingMessage">加载中</div> 
+    </div>
+  </body>
+</html>
