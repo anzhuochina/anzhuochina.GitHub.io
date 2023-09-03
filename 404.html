@@ -1,0 +1,78 @@
+
+<meta http-equiv="refresh" content="100;url="anzhuochina.GitHub.io">
+
+
+<title>404</title>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen"> 
+       
+      .spinWrap {
+          width: 150px;
+          height: 200px;
+          position: fixed;
+          top: 42%;
+          left: 50%;
+          margin-left: -75px;
+          margin-top: -100px;
+      }
+       
+      .spinnerImage {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        margin: 38px 0 0 -25px;
+        background:url(icon.png) no-repeat;
+      }
+ 
+      .loader {
+        position : absolute;
+        left : 50%;
+          margin-left : -65px;
+        border: 5px solid #cbcbca;
+        border-top: 5px solid #2380be;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        animation: spin 0.7s linear infinite;
+      }
+       
+      .loadingMessage {
+          box-sizing: border-box;
+          width: 100%;
+          margin-top: 145px;
+          text-align: center;
+          z-index: 100;
+          outline: none;
+          color: #686565;
+      }
+ 
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="spinWrap">
+      <div class="spinnerImage"></div>
+      <div class="loader"></div>
+      <div class="loadingMessage">404</div> 
+    </div>
+  </body>
+</html>
+<!-- 弹窗代码开始 -->
+<div class="web_notice" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.3);z-index: 99999;">
+<div style="position: fixed;top: 50%;left: 50%;width: 550px;background: #FFF;transform: translate(-50%, -50%);border-radius: 40px;padding: 50px 40px;">
+<h3 style="font-weight: bold;text-align: center;font-size: 30px;
+">提示</h3><div style="font-size: 16px;margin-top: 26px;line-height: 30px;color: #999;
+">当前网页不存在，或者已被移除，如果超过100秒不更改，我们将自动跳转到主页</div><a style="display: block;background: #98a3ff;color: #FFF;text-align: center;font-weight: bold;font-size: 19px;line-height: 60px;margin: 0 auto;margin-top: 45px;border-radius: 32px;width: 80%;" onclick="javascript:document.querySelector('.web_notice').remove()">确定</ a></div></div>
+
