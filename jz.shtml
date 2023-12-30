@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慈善捐赠</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .donate-options {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .donate-option {
+            text-align: center;
+        }
+
+        .donate-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .donate-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>捐赠我们</h1>
+</header>
+
+<section>
+    <h2>支持我们，让我们更加有动力</h2>
+    <p>你的捐款我们会联系您送上赠品</p>
+
+    <div class="donate-options">
+        <div class="donate-option">
+            
+            <p>支付宝</p>
+            <a href="https://i.mij.rip/2023/12/30/7c0f521902372cf970dd917298859b94.jpeg" class="donate-button">捐款</a>
+        </div>
+
+        <div class="donate-option">
+            
+            <p>微信</p>
+            <a href="https://i.miji.bid/2023/12/30/619807cfcde8684425c420832b7a54be.jpeg" class="donate-button">捐款</a>
+        </div>
+
+        <div class="donate-option">
+            
+            <p>QQ支付</p>
+            <a href="https://i.miji.bid/2023/12/30/7524d1c32064f8ae0f78af8f820af980.png" class="donate-button">捐款</a>
+        </div>
+
+        <div class="donate-option">
+            
+            <p>PayPal</p>
+            <a href="https://www.paypal.me/anzhuo1" class="donate-button">支付</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
