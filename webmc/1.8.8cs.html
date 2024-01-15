@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Anzhuo-EaglerX 1.8 test directory HTML page" />
+<meta name="keywords" content="eaglercraft, IMC-EaglerX, minecraft, 1.8, 1.8.8" />
+<title>anzhuo-EaglerX 1.8</title>
+<meta property="og:locale" content="en-US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="anzhuo-EaglerX 1.8" />
+<meta property="og:description" content="anzhuo团队二开运营的中文EaglercraftX 1.8客户端" />
+<link type="image/png" rel="shortcut icon" href="favicon.png" />
+<script type="text/javascript" src="classes.js"></script>
+<script type="text/javascript" src="fix-webm-duration.js"></script>
+<script type="text/javascript">
+         "use strict";
+			window.addEventListener("load", () => {
+				if(document.location.href.startsWith("file:")) {
+					alert("HTTP please, do not open this file locally, run a local HTTP server and load it via HTTP");
+				}else {
+					window.eaglercraftXOpts = {
+						container: "game_frame",
+						assetsURI: "assets.epk",
+						localesURI: "lang/",
+						lang: "zh_CN",
+						servers: [
+							{ addr: "wss://anzhuo.site", name: "No Server" },
+							{ addr: "wss://anzhuo.site", name: "Web by" },
+							{ addr: "wss://anzhuo.site", name: "Catandanzhuo" }
+						]
+					};
+					
+					var q = window.location.search;
+					if(typeof q === "string" && q.startsWith("?")) {
+						q = new URLSearchParams(q);
+						var s = q.get("server");
+						if(s) window.eaglercraftXOpts.joinServer = s;
+					}
+					
+					main();
+				}
+			});
+		</script>
+		
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4773172018528901" crossorigin="anonymous"></script>
+
+
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+	var hm = document.createElement("script");
+	hm.src = "https://hm.baidu.com/hm.js?ce7e01653fd1aa8e462197d25678a9b5";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body style="margin:0px;width:100vw;height:100vh;overflow:hidden;" id="game_frame">
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"845e997dddd8068a","r":1,"version":"2023.10.0","token":"3c9953b0a5e54aef93d172f8a1dd2682"}' crossorigin="anonymous"></script>
+</body>
+</html>
