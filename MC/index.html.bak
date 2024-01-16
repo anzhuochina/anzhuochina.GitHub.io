@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+	<head>
+		<title>anzhuo-我的世界网页版启动器</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon"  href="images/favicon.ico"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>首页</span></a>
+						<a href="#game" class="icon solid fa-gamepad"><span>游戏</span></a>
+						<a href="#resource" class="icon solid fa-folder"><span>资源</span></a>
+						<!--<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>-->
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>anzhuo</h1>
+									<p>网页版Minecraft启动器</p>
+									<p style="font-size: smaller;">免费、无广告、免下载在线玩、可联机</p>
+								</header>
+								<a href="#game" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right" style="width: 70%;"> 在线开始游戏</span>
+									<img src="images/mcfront.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="game" class="panel">
+								<header>
+									<h2>游戏</h2>
+								</header>
+								<p>
+									MC.JS收录了很多优秀开源网页MC项目，并提供使用JavaScript制作的各种网页MC的最佳Web版本。MC.JS永久免费、无广告、免下载在线玩、可联机、优化中文版本，服务于国人玩家。
+								</p>
+								<h3>网页版服务器已被拦截，即日起不再开放，感谢您的支持！<br>您仍然可以玩网页版 Minecraft1.5.2 或者自行下载 Minecraft Java Edition 。</h3>
+								<br>
+								<h3>[电脑版单人游戏]网页版Minecraft1.5.2</h3>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 完整版Minecraft Java Edition 1.5.2</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 支持单人游戏</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 仅限电脑端</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 没有多人联机服务器</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 只有英文版本</p>
+								<a class="boot" target="_blank" href="https://play.mc.js.cool"><i class="fas fa-play"></i> 启动游戏</a>
+								<h3>[手机版/电脑版]WebMC</h3>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 基于Nodejs重写的非常简易的远古版MC</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 只支持单人游戏创造模式</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 同时支持手机端触屏操作和电脑端键鼠操作</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 不能多人联机</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 只有英文版本</p>
+								<a class="boot" target="_blank" href="https://web.mc.js.cool"><i class="fas fa-play"></i> 启动游戏</a>
+								<h3>[<i class="far fa-times-circle"></i>已失效][电脑版多人联机服务器]网页版Minecraft1.8.8</h3>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 完整版Minecraft Java Edition 1.8.8</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 全语言支持</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> MC.JS提供一个公益联机服务器(已失效)</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 仅限电脑端</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 不支持单人游戏</p>
+								<a class="boot" target="_blank" href="http://i.mc.js.cool"><i class="fas fa-play"></i> 启动游戏(已失效)</a>
+								<a class="boot" href="#resource"><i class="fas fa-file-download"></i> 获取皮肤/材质包</a>
+								<h3>[<i class="far fa-times-circle"></i>已失效][支持PBR光影]网页版Minecraft1.8.8 光影版</h3>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 完整版Minecraft Java Edition 1.8.8 + OptiFine光影插件</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 预装一个网页版MC专用高性能PBR光影</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> 中文支持</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-check-circle"></i> MC.JS提供一个公益联机服务器(已失效)</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 仅限电脑端</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 开启光影对电脑性能要求极高</p>
+								<p style="margin-bottom: 0em;"><i class="far fa-times-circle"></i> 不支持单人游戏</p>
+								<a class="boot" target="_blank" href="http://a.mc.js.cool"><i class="fas fa-play"></i> 启动游戏(已失效)</a>
+								<a class="boot" href="#resource"><i class="fas fa-file-download"></i> 获取皮肤/材质包</a>
+
+								<br><br>
+
+								<a class="mailme" href="mailto:mc@mc.js.cool" target="_blank">联系邮箱：mc@mc.js.cool （主题请注明mc.js）</a>
+							</article>
+							<article id="resource" class="panel">
+							<header>
+								<h2>资源</h2>
+							</header>
+							<p>
+								MC.JS针对网页版Minecraft1.8.8提供资源中心以提升玩家游戏体验，MC.JS的资源中心目前正在搭建中，玩家可以自行在MCBBS下载皮肤/材质包用于网页版Minecraft1.8.8 。
+							</p>
+							<h3>注意：材质包适用版本最好为1.8.X</h3>
+							<a class="dl" target="_blank" href="https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=169&filter=sortid&sortid=4">· 在MCBBS下载皮肤</a><br>
+							<a class="dl" target="_blank" href="https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=44&filter=sortid&sortid=19">· 在MCBBS下载材质包</a>
+							</article>
+
+
+
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>Copyright &copy; 2023 <a href="https://mc.js.cool">www.anzhuo.site</a> .<!--</li><li>--> All rights reserved .</li>
+							<br><li2>本站只是MC爱好者的开源项目，与"Minecraft"以及"我的世界"没有从属关系，本站所用mc.js.cool的网站资源</li2>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="https://s1.pstatp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
