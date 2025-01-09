@@ -1,2 +1,4 @@
-# anzhuochina.GitHub.io
-anzhuo
+# 关于这个仓库
+此仓库为致安团队网站的部署，可以从此看到网站的任何信息，比如三年前的网站？
+# 其他信息
+可以到[# 致安团队官网](https://www.zateam.icu/)查看
